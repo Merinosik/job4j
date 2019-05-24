@@ -17,7 +17,7 @@ import static org.junit.Assert.assertThat;
  */
  
  @Test
-  public void whenTakeNameThenThreeEchoPlusName () {
+  public void whenTakeNameThenThreeEchoPlusName() {
 	  String input = "Andrey Tatuev";
 	  String expect = "Echo, echo, echo : Andrey Tatuev";
 	  Calculate calc = new Calculate();
